@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  text-decoration: none;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +13,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:#f1f1f1;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.content{
+  display:flex;
+  justify-content: start;
+  width:1000px;
+}
+
+.list-teams {
+  width:300px;
+  background-color: #2B2D42;
+}
+.list-teams li{
+  padding:15px;
+  font-size:18px;
+  color:#818CA1;
+  border-bottom:1px solid#27293C;
+  cursor:pointer;
 }
